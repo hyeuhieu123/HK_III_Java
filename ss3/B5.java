@@ -3,24 +3,32 @@ package ss3;
 import java.util.Scanner;
 
 public class B5 {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("nhap thang: ");
-        int month = sc.nextInt();
+        System.out.print("nhap so thu 1: ");
+        double num1 = sc.nextDouble();
+        System.out.print("nhap phep toan (+, -, *, /): ");
+        char op = sc.next().charAt(0);
+        System.out.print("nhap so thu 2: ");
+        double num2 = sc.nextDouble();
 
-        int days;
-        switch (month) {
-            case 1, 3, 5, 7, 8, 10, 12 -> days = 31;
-            case 4, 6, 9, 11 -> days = 30;
-            case 2 -> days = 28;
-            default -> {
-                System.out.println("thang khong hop le.");
-                return;
-            }
+        switch (op) {
+            case '+':
+                System.out.println("ket qua: " + (num1 + num2));
+                break;
+            case '-':
+                System.out.println("ket qua: " + (num1 - num2));
+                break;
+            case '*':
+                System.out.println("ket qua: " + (num1 * num2));
+                break;
+            case '/':
+                if (num2 == 0) System.out.println("khong the chia cho 0.");
+                else System.out.println("ket qua: " + (num1 / num2));
+                break;
+            default:
+                System.out.println("phep toan khong hop le.");
         }
-
-        System.out.println("thang " + month + " co " + days + " ngay.");
         sc.close();
-
     }
 }

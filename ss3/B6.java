@@ -3,23 +3,24 @@ package ss3;
 import java.util.Scanner;
 
 public class B6 {
-    public static void main(String[] args) {
+    public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
-        System.out.print("nhap 3 canh tam giac: ");
-        int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();
+        System.out.print("nhap thang: ");
+        int month = sc.nextInt();
 
-        if (a + b <= c || a + c <= b || b + c <= a) {
-            System.out.println("ba canh khong tao thanh tam giac.");
-        } else if (a == b && b == c) {
-            System.out.println("tam giac deu.");
-        } else if (a == b || a == c || b == c) {
-            System.out.println("tam giac can.");
-        } else if (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a) {
-            System.out.println("tam giac vuong.");
-        } else {
-            System.out.println("tam giac thuong.");
+        int days;
+        switch (month) {
+            case 1, 3, 5, 7, 8, 10, 12 -> days = 31;
+            case 4, 6, 9, 11 -> days = 30;
+            case 2 -> days = 28;
+            default -> {
+                System.out.println("thang khong hop le.");
+                return;
+            }
         }
 
+        System.out.println("thang " + month + " co " + days + " ngay.");
         sc.close();
+
     }
 }
