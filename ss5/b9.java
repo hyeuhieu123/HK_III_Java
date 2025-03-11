@@ -13,9 +13,16 @@ public class b9 {
                 arr[i][j] = sc.nextInt();
             }
         }
-        for (int i = 0; i < n; i++) {
-            for (int j = n-1; j >= 0; j--) {
-                System.out.printf(arr[j][i] + " ");
+        // for (int i = 0; i < n; i++) {
+        //     for (int j = n-1; j >= 0; j--) {
+        //         System.out.printf(arr[j][i] + " ");
+        //     }
+        //     System.out.println();
+        // }
+
+        for(int i  =0 ;i<n;i++){
+            for(int j = n-1;j>=0;j--){
+                System.out.print(arr[j][i] + " ");
             }
             System.out.println();
         }
