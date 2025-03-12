@@ -25,5 +25,7 @@ public class B6 {
         }
         end = System.currentTimeMillis();
         System.out.println("StringBuffer: " + (end - start) + " ms");
+
+        // lấy start time trước khi làm sau đó chạy xong thì lấy end time trừ đi start time
     }
 }

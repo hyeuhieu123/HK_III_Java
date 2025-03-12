@@ -12,5 +12,6 @@ public class B5 {
         }
         System.out.println("result \n" + result.toString().trim());
         sc.close();
+        /// sử dụng split tách bằng regex s+ để lấy mỗi phần tử là 1 phần nhỏ trong mảng
     }
 }

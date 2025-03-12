@@ -9,6 +9,8 @@ public class B9 {
         StringBuilder sb = new StringBuilder();
         int count = 1;
 
+
+        
         for (int i = 1; i < str.length(); i++) {
             if (str.charAt(i) == str.charAt(i - 1)) {
                 count++;
@@ -17,7 +19,9 @@ public class B9 {
                 count = 1;
             }
         }
-
+        
         System.out.println("nen: " + sb);
+        /// đếm phần tử trước đó str.charat(i) == str.charat(i-1) ==> ++
+        /// nếu ko bằng thì in char(i-1) kèm theo count 
     }
 }
