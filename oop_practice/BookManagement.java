@@ -196,6 +196,12 @@ public class BookManagement {
 				break;	
 				case 7:
 				findBookByAuthor(sc);
+				case 8:
+				findByPrice(sc);
+				case 9:
+				compileBookByAuthor();
+				case 10: 
+				System.exit(0);
 			}
 		} while (true);
 		
@@ -331,4 +337,45 @@ public static double sumInterest(){
 			}
 
 		}
+		
+		public static void findByPrice(Scanner sc) {
+			System.out.print("nhap khoang gia ban tu: ");
+			double minPrice = sc.nextDouble();
+			System.out.print("nhap khoang gia ban den: ");
+			double maxPrice = sc.nextDouble();
+			sc.nextLine();
+			
+			for (int i = 0; i < currentIndex; i++) {
+				if (Books[i].getExportPrice() >= minPrice && Books[i].getExportPrice() <= maxPrice) {
+					Books[i].dispalyData();
+				}
+			}
+		}
+		
+		public static void compileBookByAuthor() {
+			System.out.println("thong ke so luong sach theo moi tac gia:");
+		
+			for (int i = 0; i < currentIndex; i++) {  
+				String author = Books[i].getAuthor();
+				boolean alreadyCounted = false;
+		
+				for (int k = 0; k < i; k++) {  
+					if (Books[k].getAuthor().equals(author)) {
+						alreadyCounted = true; 
+						break;
+					}
+				}
+		
+				if (!alreadyCounted) { 
+					int bookCount = 0;
+					for (int j = 0; j < currentIndex; j++) { 
+						if (Books[j].getAuthor().equals(author)) {
+							bookCount++;
+						}
+					}
+					System.out.println(author.toLowerCase() + ": " + bookCount + " quyen sach");
+				}
+			}
+		}
+	
 }
