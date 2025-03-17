@@ -1,4 +1,5 @@
-package ex9;
+package B9;
+
 
 public class CheckingAccount extends BankAccount {
     public CheckingAccount(String accountNumber, double balance) {

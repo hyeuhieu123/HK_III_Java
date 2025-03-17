@@ -1,4 +1,4 @@
-package ex9;
+package B9;
 
 public class Bank {
     private BankAccount[] accounts;

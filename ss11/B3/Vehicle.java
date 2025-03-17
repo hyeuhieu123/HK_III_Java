@@ -1,4 +1,5 @@
-package ss11.ss3;
+package B3;
+
 
 public abstract class Vehicle {
     protected String name;

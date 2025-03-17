@@ -1,4 +1,4 @@
-package ex5;
+package B5;
 
 public class Square implements Colorable {
     private String color;

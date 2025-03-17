@@ -1,4 +1,5 @@
-package ex5;
+package B5;
+
 
 public class Rectangle implements Colorable {
     private String color;

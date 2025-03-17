@@ -1,4 +1,5 @@
-package ex8;
+package B8;
+
 
 public abstract class Car {
      String model;

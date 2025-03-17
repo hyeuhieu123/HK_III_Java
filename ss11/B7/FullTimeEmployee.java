@@ -1,4 +1,5 @@
-package ex7;
+package B7;
+
 
 public class FullTimeEmployee extends Employee {
     public FullTimeEmployee(String name, int paymentPerHour) {

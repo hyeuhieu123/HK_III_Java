@@ -1,4 +1,5 @@
-package ex6;
+package B6;
+
 
 public class Elephant extends Animal {
     public Elephant(String name, int age) {

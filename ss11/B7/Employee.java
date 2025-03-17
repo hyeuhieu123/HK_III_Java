@@ -1,4 +1,5 @@
-package ex7;
+package B7;
+
 
 public abstract class Employee implements IEmployee {
     private String name;

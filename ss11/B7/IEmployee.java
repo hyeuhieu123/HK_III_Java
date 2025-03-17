@@ -1,4 +1,5 @@
-package ex7;
+package B7;
+
 
 public interface IEmployee {
     int calculateSalary();

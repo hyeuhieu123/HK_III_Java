@@ -1,4 +1,5 @@
-package ex10;
+package B10;
+
 
 public class Manager extends Employee implements AttendMeeting {
     public Manager(String name, double salary) {

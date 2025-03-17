@@ -1,4 +1,5 @@
-package ex10;
+package B10;
+
 
 public abstract class Employee {
     protected String name;

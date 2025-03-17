@@ -1,4 +1,5 @@
-package ex10;
+package B10;
+
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ss11.ss3;
+package B3;
 
 
 public class Car extends Vehicle {

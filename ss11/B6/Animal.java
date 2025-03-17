@@ -1,4 +1,5 @@
-package ex6;
+package B6;
+
 
 public abstract class Animal {
     protected String name;

@@ -1,4 +1,6 @@
-package ss11.ss4;
+package B4;
+
+
 public class Radio implements Electronic{
 
     @Override

@@ -1,4 +1,4 @@
-package ex8;
+package B8;
 
 public class GasCar extends Car implements Refuelable {
         public GasCar(String model, int year, double price) {

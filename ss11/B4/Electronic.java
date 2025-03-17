@@ -1,4 +1,5 @@
-package ss11.ss4;
+package B4;
+
 
 public interface Electronic {
     void turnOn();

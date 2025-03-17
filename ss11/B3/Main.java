@@ -1,4 +1,4 @@
-package ss11.ss3;
+package B3;
 
 public class Main {
     public static void main(String[] args) {

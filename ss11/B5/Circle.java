@@ -1,4 +1,4 @@
-package ex5;
+package B5;
 
 public class Circle implements Colorable {
     private double radius;

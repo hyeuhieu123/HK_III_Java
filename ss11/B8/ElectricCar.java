@@ -1,4 +1,5 @@
-package ex8;
+package B8;
+
 
 public class ElectricCar extends Car implements Refuelable {
     public ElectricCar(String model, int year, double price) {

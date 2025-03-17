@@ -1,4 +1,5 @@
-package ex6;
+package B6;
+
 
 public class Zoo {
     private Animal[] animals = new Animal[2];

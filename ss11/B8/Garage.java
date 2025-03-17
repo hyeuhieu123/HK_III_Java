@@ -1,4 +1,5 @@
-package ex8;
+package B8;
+
 
 public class Garage {
     private Car[] cars;

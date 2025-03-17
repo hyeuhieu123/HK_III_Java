@@ -1,4 +1,5 @@
-package ex9;
+package B9;
+
 
 public abstract class BankAccount {
     protected String accountNumber;
