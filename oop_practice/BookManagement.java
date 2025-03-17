@@ -196,10 +196,13 @@ public class BookManagement {
 				break;	
 				case 7:
 				findBookByAuthor(sc);
+				break;
 				case 8:
 				findByPrice(sc);
+				break;
 				case 9:
 				compileBookByAuthor();
+				break;
 				case 10: 
 				System.exit(0);
 			}
@@ -352,30 +355,37 @@ public static double sumInterest(){
 			}
 		}
 		
-		public static void compileBookByAuthor() {
-			System.out.println("thong ke so luong sach theo moi tac gia:");
+		 public static void compileBookByAuthor() {
+		// 	System.out.println("thong ke so luong sach theo moi tac gia:");
 		
-			for (int i = 0; i < currentIndex; i++) {  
-				String author = Books[i].getAuthor();
-				boolean alreadyCounted = false;
+		// 	for (int i = 0; i < currentIndex; i++) {  
+		// 		String author = Books[i].getAuthor(); // luu ten tac gia i
+		// 		boolean alreadyCounted = false;
 		
-				for (int k = 0; k < i; k++) {  
-					if (Books[k].getAuthor().equals(author)) {
-						alreadyCounted = true; 
-						break;
-					}
-				}
+		// 		for (int k = 0; k < i; k++) {  /// k<i bởi vì sẽ tìm cách sách trước i , nếu = i || = current thì sẽ đếm luôn cả chính i ==> ko có tg nào dc thống kê
+		// 			if (Books[k].getAuthor().equals(author)) {//kiem tra tu dau den vi tri thu i  xem co tac gia nao trung voi bien author o tren
+		// 				alreadyCounted = true; 
+		// 				break;
+		// 			}
+		// 		}
 		
-				if (!alreadyCounted) { 
-					int bookCount = 0;
-					for (int j = 0; j < currentIndex; j++) { 
-						if (Books[j].getAuthor().equals(author)) {
-							bookCount++;
-						}
-					}
-					System.out.println(author.toLowerCase() + ": " + bookCount + " quyen sach");
-				}
-			}
+		// 		if (!alreadyCounted) { 
+		// 			int bookCount = 0;
+		// 			for (int j = 0; j < currentIndex; j++) { 
+		// 				if (Books[j].getAuthor().equals(author)) {
+		// 					bookCount++;
+		// 				}
+		// 			}
+		// 			System.out.println(author.toLowerCase() + ": " + bookCount + " quyen sach");
+		// 		}
+		// 	}
+
+
+		/////////////////////
+		
 		}
+
+
+	
 	
 }
