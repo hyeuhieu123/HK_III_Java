@@ -1,4 +1,4 @@
-package ss11;
+
 
 public class B2 {
 	/*

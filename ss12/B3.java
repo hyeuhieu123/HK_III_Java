@@ -1,3 +1,4 @@
+package ss12;
 class Animal {
     public void makeSound() {
         System.out.println("Some sound");
@@ -18,7 +19,7 @@ class Cat extends Animal {
     }
 }
 
-public class Bai3 {
+public class B3 {
     public static void main(String[] args) {
         Animal myAnimal = new Animal();
         Animal myDog = new Dog();

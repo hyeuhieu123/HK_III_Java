@@ -1,3 +1,4 @@
+package ss12;
 abstract class VehicleBai9 {
     private String name;
     private int speed;
@@ -109,7 +110,7 @@ class Airplane extends VehicleBai9 {
 
 
 
-public class Bai9 {
+public class B9 {
     public static void main(String[] args) {
         VehicleBai9[] vehicles = {
                 new CarBai9(100),

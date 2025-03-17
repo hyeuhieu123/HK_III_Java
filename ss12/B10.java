@@ -1,3 +1,4 @@
+package ss12;
 abstract class PaymentMethod {
     double amount;
 
@@ -90,7 +91,7 @@ class Cash extends PaymentMethod {
     }
 }
 
-public class Bai10 {
+public class B10 {
     public static void main(String[] args) {
         PaymentMethod creditCard = new CreditCard(1000);
         System.out.println("--- Credit Card ---");

@@ -1,3 +1,4 @@
+package ss12;
 class Calculator {
     public int add(int a, int b) {
         return a + b;
@@ -8,7 +9,7 @@ class Calculator {
     }
 }
 
-public class Bai2 {
+public class B2 {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         int sum1 = calculator.add(5, 10);

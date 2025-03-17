@@ -1,3 +1,4 @@
+package ss12;
 class Product {
     protected String name;
     protected double price;
@@ -72,7 +73,7 @@ class Food extends Product {
 }
 
 
-public class Bai8 {
+public class B8 {
     public static void main(String[] args) {
         Product p1 = new Electronics("Laptop", 1500);
         Product p2 = new Clothing("Áo thun", 500);

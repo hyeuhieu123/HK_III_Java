@@ -1,3 +1,4 @@
+package ss12;
 class Shape {
     public double area() {
         return 0;
@@ -40,7 +41,7 @@ class Rectangle extends Shape {
     }
 }
 
-public class Bai4 {
+public class B4 {
     public static void main(String[] args) {
         Shape circle = new Circle(5);
         Shape rectangle = new Rectangle(4, 6);

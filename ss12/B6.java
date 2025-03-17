@@ -1,3 +1,4 @@
+package ss12;
 class Employee {
     protected String name;
     protected int age;
@@ -71,7 +72,7 @@ class Intern extends Employee {
 }
 
 
-public class Bai6 {
+public class B6 {
     public static void main(String[] args) {
         Employee[] employees = new Employee[3];
         employees[0] = new FullTimeEmployee("Nguyễn Văn A", 30, 1000, 200);

@@ -1,3 +1,4 @@
+package ss12;
 class Vehicle {
     public String move() {
         return "Vehicle moving";
@@ -44,7 +45,7 @@ class Bus extends Vehicle {
     }
 }
 
-public class Bai7 {
+public class B7 {
     public static void main(String[] args) {
         Vehicle[] vehicles = new Vehicle[3];
         vehicles[0] = new Car();
