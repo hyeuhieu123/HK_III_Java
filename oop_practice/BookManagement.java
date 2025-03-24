@@ -284,7 +284,7 @@ do {
             System.out.println("nhap lai");
             break;
     }
-} while (isExit);
+} while (true);
 			}else{
 				System.out.println("ko tim thay sach");
 			}
