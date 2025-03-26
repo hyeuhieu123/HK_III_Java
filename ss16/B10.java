@@ -156,8 +156,5 @@ public class B10 {
             } while (choice != 5);
         }
 
-        public static void main(String[] args) {
-            StudentManagement sm = new StudentManagement();
-            sm.menu();
-        }
-    }
+
+    }}
