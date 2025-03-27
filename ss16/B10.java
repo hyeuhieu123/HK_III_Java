@@ -156,7 +156,12 @@ public class B10 {
             } while (choice != 5);
         }
 
+<<<<<<< HEAD
         public static void main(String[] args) {
 
         }
     }
+=======
+
+    }}
+>>>>>>> b1079ab2dcec0ac6fe754dc03049671445f6cfa3
