@@ -1,4 +1,4 @@
-package ss19;
+package ss20;
 
 import java.util.HashMap;
 import java.util.List;
@@ -49,6 +49,7 @@ public class B8 {
 
         for(Student std : students){
             String major = std.getMajor();
+
             if(maps.containsKey(major)){
                 maps.put(major, maps.get(major)+1);
             }else
