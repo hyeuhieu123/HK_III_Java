@@ -157,7 +157,6 @@ public class B10 {
         }
 
         public static void main(String[] args) {
-            StudentManagement sm = new StudentManagement();
-            sm.menu();
+
         }
     }

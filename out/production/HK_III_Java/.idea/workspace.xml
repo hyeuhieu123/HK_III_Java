@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15119010-caf6-4bc4-abb9-99fed124711b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss16/B1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss19/B1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss18/B10.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss18/B10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2tpRsnqvmeXE7pGaphdURIqDSV7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

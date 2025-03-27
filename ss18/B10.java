@@ -48,7 +48,7 @@ public class B10 {
         do {
             System.out.println("-------------------");
             System.out.println("1. them nv");
-            System.out.println("2. xoa nv");
+            System.out.println("2. in danh sach");
             System.out.println("3. tinh tong  ");
             System.out.println("4. luong trung binh");
             System.out.println("5. nv luong cao nhat  ");
@@ -118,7 +118,7 @@ public class B10 {
     public static void HighestSalaryEmployee() {
         Employee maxSalaryEmployee = null;
         for (Employee emp : employeeMap.values()) {
-            if ( emp.getSalary() > maxSalaryEmployee.getSalary()) {
+            if (  emp.getSalary() > maxSalaryEmployee.getSalary()) {
                 maxSalaryEmployee = emp;
             }
         }
