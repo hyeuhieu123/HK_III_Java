@@ -40,6 +40,7 @@ public class B8 {
 				//
 				FileInputStream fis = new FileInputStream("product.dat");
 				ObjectInputStream ois = new ObjectInputStream(fis);	
+				System.out.println("test" + ois.readObject());
 				List<Product> loadedList = (List<Product>) ois.readObject();
 				
 				System.out.println("test" + loadedList);
