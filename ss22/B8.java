@@ -43,7 +43,7 @@ public class B8 {
 				List<Product> loadedList = (List<Product>) ois.readObject();
 				
 				System.out.println("test" + loadedList);
-				// In từng sản phẩm ra màn hình
+				
 				for (Product p : loadedList) {
 					System.out.println(p);
 				}
