@@ -25,10 +25,9 @@ public class Account {
 	public void setAge(int age) {
 		this.age = age;
 	}
-
-	public synchronized static Account getInsance(){
+	public static Account getInstance(){
 		if(instance==null){
-			instance=new Account();
+			return new Account();
 		}
 		return instance;
 	}

@@ -5,7 +5,6 @@ public class Main {
 		//tach biet qua trinh xay dung doi tuong phuc tap
         Car car1 = new Car.CarBuilder().setEngine("dien").setSeats(4).setColor("xanh").build();
 		Car car2 = new Car.CarBuilder().setEngine("v8").setSeats(4).setColor("do").build();
-        car1.displayInfo();
-        car2.displayInfo();
+        System.out.println(car1);
     }
 }
